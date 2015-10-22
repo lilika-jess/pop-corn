@@ -393,10 +393,63 @@
 			<section4 id="suivez-nous!">
 				<div>
 				<h3 class="section">~ Suivez-nous ~</h3>
-				<a target="_blank" href="http://www.facebook.com"><img src="images/facebook.png"/></a>
-				<a target="_blank" href="http://www.twitter.com"><img src="images/twitter.png"/></a>
-				<a target="_blank" href="http://www.instagram.com"><img src="images/instagram.png"/></a>
+				<a target="_blank" href="http://www.facebook.com"><img img-responsive src="images/facebook.png"/></a>
+				<a target="_blank" href="http://www.twitter.com"><img img-responsive src="images/twitter.png"/></a>
+				<a target="_blank" href="http://www.instagram.com"><img img-responsive src="images/instagram.png"/></a>
+				<a data-toggle="modal" data-target="#myModal"><img id="mail" img-responsive src="images/mail.png"/></a>
 				</div>
+
+
+				<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Contactez-nous!</h4>
+					      </div>
+					      <div class="modal-body">
+					        <form class="form-horizontal" id="mailbox" action="#">
+					    <div class="form-group">
+					        <label for="name" class="col-sm-2 control-label">Nom et prénom</label>
+					        <div class="col-sm-10">
+					            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+					        </div>
+					    </div>
+					    <div class="form-group">
+					        <label for="email" class="col-sm-2 control-label">Email</label>
+					        <div class="col-sm-10">
+					            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+					        </div>
+					    </div>
+					    <div class="form-group">
+					        <label for="message" class="col-sm-2 control-label">Message</label>
+					        <div class="col-sm-10">
+					            <textarea class="form-control" rows="4" name="message"></textarea>
+					        </div>
+					    </div>
+					    
+					    <div class="form-group">
+					        <div class="col-sm-10 col-sm-offset-2">
+					            <input id="submit" name="submit" type="submit" value="Envoyez" class="btn btn-primary">
+					        </div>
+					    </div>
+					    <div class="form-group">
+					        <div class="col-sm-10 col-sm-offset-2">
+					            <! Will be used to display an alert to the user>
+					        </div>
+					    </div>
+					</form>
+							<div id="errormessage" class="hidden">
+								<p> Oups, recommencez ! </p>
+							</div>
+							<div id="greatsucess" class="hidden">
+								<p>Bravo, merci!</p>
+					</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 
 
 			<!--MENTIONS LEGALES -->
@@ -408,6 +461,7 @@
  <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="global.js"></script>
 
 		</body>
 	</html>

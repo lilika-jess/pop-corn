@@ -115,7 +115,7 @@ border-radius: 20%;
 .prenom {
 	color: #7e0e0b;
 	font-family: FunSized;
-	font-size: 400%;
+	font-size: 200%;
 }
 
 
@@ -330,4 +330,12 @@ a:hover {
 		display: block;
 		text-align: center;
 	}
+}
+
+#mail {
+	cursor: pointer;
+}
+
+.hidden {
+	display:none;
 }
