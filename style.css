@@ -1,0 +1,333 @@
+/*header */
+
+/*#titre {
+	font-family: DK Sensory Overload;
+	color: #7d1e4e;
+	font-size: 1400%;
+	display: inline;
+	position: absolute;
+	margin-left: 700px;
+	bottom: 0;
+
+}
+
+#background {
+	background: url(images/movie.jpeg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	width: 90%;
+	height: 500px;
+	margin-top: 0%;
+}
+
+
+#imtitre {
+	display: inline;
+	position: absolute;
+	right: -7%;
+	margin-top: 200px;
+} */
+
+#background {
+	width:100%;
+}
+
+#imtitre2{
+	display: inline;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+}
+
+
+nav ul {
+ padding:0px;
+ margin:0px;
+ list-style-type:none;
+ }
+
+nav ul li {
+padding-left: 30px;
+margin-left: 70px;
+margin-top: 30px;
+float:left;
+}
+
+nav ul li a {
+display: inline-block;
+/* width: 280px;
+height: 115px; */
+background-color: #FFEFD5;
+font-family: cursive;
+color: #000;
+font-size: 35px;
+text-decoration: none;
+text-align: center;
+border: 5px solid #7D1E4E;
+border-radius: 20%;
+}
+
+
+/*Partout */
+
+.section {
+	color: #fff7fe;
+	font-family: friday night;
+	font-size: 30px;
+	background-color: #7e0e0b;
+	height: 50px;
+	margin: 70px 0px 70px 0px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#section1 {
+	position: relative;
+	margin-top: 70px;
+	color: #fff7fe;
+	font-family: friday night;
+	font-size: 30px;
+	background-color: #7e0e0b;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.pnom{
+	color: #00000;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+.pnom1{
+	color: #00000;
+	font-family: cursive;
+	font-size: 180%;
+	padding:20%;
+}
+
+
+
+
+
+/* Qui sommes nous */
+
+.prenom {
+	color: #7e0e0b;
+	font-family: FunSized;
+	font-size: 50px;
+}
+
+
+#separateur {
+	position: relative;
+	margin-left: 500px;
+}
+
+.photo{
+	width: 90%;
+	padding: 10%;
+}
+
+
+.colonne {
+padding: 10%;
+	/*
+	float: left;
+	margin: 100px;
+	margin-left: 100px;
+	margin-right: 200px;
+	margin-top: 100px; */
+}
+
+
+
+/*Pourquoi Pop Corn */
+
+#pave2 {
+	margin-top: 150px;
+}
+
+
+.pourquoi {
+	color:#7d1e4e;
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: TypoSlab Irregular Demo;
+}
+
+#pourquoi2 {
+	box-shadow: 5px 5px 5px 5px;
+	height: 50px;
+	width: 1500px;
+	display: inline-block;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+
+#rond1 {
+	display: inline-block;
+	margin-left: 200px;
+	height:270px;
+	width:270px;
+	border-radius:100%;
+	border: 8px dashed #9933FF;
+}
+
+#rond2 {
+	display: inline-block;
+	margin-left: 200px;
+	height:270px;
+	width:270px;
+	border-radius:100%;
+	border: 8px dashed #7d1e4e;
+}
+
+
+#rond3 {
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 150px;
+	height:270px;
+	width:270px;
+	border-radius:100%;
+	border: 8px dashed #330066;
+}
+
+#text1 {
+	margin-top: 100px;
+	margin-left: 45px;
+}
+
+#text2 {
+	margin-top: 120px;
+	margin-left: 60px;
+}
+
+#text3 {
+	margin-top: 100px;
+	margin-left: 60px;
+}
+
+
+
+
+
+
+/*Exemple critique */
+
+.datafilm {
+	color:#7d1e4e;
+	font-family: TypoSlab Irregular Demo;
+	width: 200px;
+}
+
+#film {
+	font-family: caviar dreams;
+	color: #7d1e4e;
+	font-size: 550%;
+	margin: auto;
+	text-align: center;
+}
+
+#ba {
+	position: relative;
+	width:100%;
+}
+
+#bo {
+	position: relative;
+	width:100%;
+}
+
+#affiche {
+	position: relative;
+	width:200%;
+}
+
+
+.pnom2 {
+	font-size:17px;
+	font-family: cursive;
+	width: 670px;
+	margin-left: 10px;
+	background-color: #FFFFFF ;
+	box-shadow: 5px 5px 3px 3px;
+	}
+
+.column1 {
+	float: left;
+	margin: 10px;
+	margin-left: auto;
+	margin-top: -70px;
+	margin-right: 20px;
+	padding: 70px;
+}
+
+.column2 {
+	float: left;
+	margin: 10px;
+	margin-left: -20px;
+	margin-top: -70px;
+	margin-right: 20px;
+	padding: 70px;
+	width: 700px;
+}
+
+.column3 {
+	float: left;
+	margin: 10px;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-right: 20px;
+	padding: 50px;
+	width: 700px;
+}
+
+.contour {
+	border: 2px dashed #7D1E4E;
+	padding: 10px;
+}
+
+.clear {
+	clear:both;
+}
+
+
+
+#scrypt {
+	background-color: #FFE4E1 ;
+	box-shadow: 5px 5px 1px 1px;
+	font-size:22px;
+	margin-left: -80px;
+	padding: 30px;
+	margin-top: 80px;
+}
+
+
+
+/*Mentions légales*/
+#legal {
+	font-size: 30px;
+	margin-left: 1600px;
+}
+
+a {
+	color: #7d1e4e;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #660000;
+	font-family: cursive;
+}
+
+@media (max-width: 800px) {
+	nav ul li {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+}
