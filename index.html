@@ -31,7 +31,7 @@
 				
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-sm-12">
 
 				<img id="background" src="images/background.png"/>
 
@@ -73,7 +73,7 @@
 
 
 			<!--QUI SOMMES NOUS -->
-			<section id="qui-sommes-nous ?">
+			<section>
 <div class="container-fluid">
 
 	<div class="row">
@@ -81,7 +81,61 @@
 				<h3 id="section1">~ Qui sommes nous ? ~</h3> 
 		</div>
 	</div>
-</div>				
+</div>		
+
+<!--carouselle -->
+<div id="my_carousel" class="carousel slide" data-ride="carousel"> 
+
+<!-- Bulles -->
+<ol class="carousel-indicators">
+<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+<li data-target="#my_carousel" data-slide-to="1"></li>
+<li data-target="#my_carousel" data-slide-to="2"></li>
+<li data-target="#my_carousel" data-slide-to="3"></li>
+</ol>
+<!-- Slides -->
+<div class="carousel-inner">
+<!-- Page 1 -->
+<div class="item active">  
+<div class="carousel-page">
+<img src="images/jessica.jpg" class="img-responsive" style="margin:0px auto;"/>
+</div> 
+<div class="carousel-caption">Jessica - 21 ans</div>
+</div>   
+<!-- Page 2 -->
+<div class="item"> 
+<div class="carousel-page"><img src="images/david.jpg" class="img-responsive img-rounded" 
+style="margin:0px auto;"  /></div> 
+<div class="carousel-caption">David - 19 ans</div>
+</div>  
+<!-- Page 3 -->
+<div class="item">  
+<div class="carousel-page"><img src="images/antoine.jpg" class="img-responsive img-rounded" 
+style="margin:0px auto;"  /></div>  
+<div class="carousel-caption">Antoine - 23 ans</div>
+</div>
+<!--Page 4 -->
+<div class="item">  
+<div class="carousel-page">
+<img src="images/clement.jpg" class="img-responsive img-rounded" 
+style="margin:0px auto;max-height:100%;"/>
+</div>  
+<div class="carousel-caption">Clément - 20 ans</div>
+</div>     
+</div>
+<!-- Contrôles -->
+<a class="left carousel-control" href="#my_carousel" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#my_carousel" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+</div>
+
+<!--fin carousselle -->
+
+
+			
 
 				<!--Jessica -->
 
@@ -91,7 +145,7 @@
 
 		
 							<div class="colonne">
-							<img class="photo" class="img-responsive" src="images\jessica.jpg"/>
+							<img class="photo" class="img-responsive" src="images/jessica.jpg"/>
 							</div>
 
 			</div> <!--div ferm class col-->
@@ -102,7 +156,7 @@
 							<h5 class="prenom">Jessica</h5>
 								<ul class="pnom1">
 									<li>22 ans </li>
-									<li>étudiant à Telecom Ecole de Management</li>
+									<li>étudiante à Telecom Ecole de Management</li>
 									<li>films préférés: Shutter Island, Bridget Jones, Moi moche et méchant</li>
 							
 								</ul>
@@ -115,12 +169,11 @@
 							
 					
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12">
-
-					<img class="separateur" class="img-responsive" src="images/barre.png"/>
-			</div>
-		</div>
+					<div class="row">
+						<div class="col-sm-5 col-sm-offset-3">
+							<img id="separateur" class="img-responsive" src="images/barre.png"/>
+						</div>
+					</div>
 	</div>		
 
 					
@@ -149,13 +202,12 @@
 	</div>
 
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12">
-
-					<img class="separateur" class="img-responsive" src="images/barre.png"/>
-			</div>
-		</div>
+<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-5 col-sm-offset-3">
+							<img id="separateur" class="img-responsive" src="images/barre.png"/>
+						</div>
+					</div>
 	</div>
 
 				<!--Antoine -->
@@ -185,13 +237,12 @@
 	</div>
 
 					<div class="container-fluid">
-						<div class="row">
-							<div class="col-sm-12">
-
-								<img class="separateur" class="img-responsive" src="images/barre.png"/>
-							</div>
+					<div class="row">
+						<div class="col-sm-5 col-sm-offset-3">
+							<img id="separateur" class="img-responsive" src="images/barre.png"/>
 						</div>
 					</div>
+	</div>
 
 
 				<!-- Clement -->
@@ -224,30 +275,70 @@
 
 
 			<!--POURQUOI POP CORN -->
-			<section id="pourquoi?">
-				<h3 class="section">~ Pourquoi ? ~</h3>
+			<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 id="section1">~ Pourquoi ? ~</h3>
+				</div>
+			</div>
+		</div>
 
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-11 col-sm-offset-1">
 				<div>
 				<h2 class="pourquoi">Pourquoi POP CORN?</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
 					<div>
 					<div id="rond1">
-					<div class="pnom"> <p id="text1">Faire découvrir notre passion du cinéma</p> </div> </div>
-					
-					<div id="rond2"> <div class="pnom"> <p id="text2">Partager nos avis</p> </div> </div>
+					<div class="pnom"> <p id="text">Faire découvrir notre passion du cinéma</p> </div> </div>
+				</div>
+			</div>
 
+			
+				<div class="col-sm-4">
+					<div id="rond2"> <div class="pnom"> <p id="text">Partager nos avis</p> </div> </div>
+				</div>
+			
+
+			
+				<div class="col-sm-4">
 					<div id="rond3">
-					<div class="pnom"> <p id="text3">Donner envie aux internautes d'aller au cinéma</p> </div> </div>
+					<div class="pnom"> <p id="text">Donner envie aux internautes d'aller au cinéma</p> </div> </div>
 					</div>
+				</div>
+			
+		</div>
 
+				
+
+<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-11 col-sm-offset-1">
 				<div id="pave2">
-				<div> <h2 class="pourquoi">Pourquoi ce nom?</h2> </div>
+				<h2 class="pourquoi">Pourquoi ce nom?</h2>
+				</div>
+			</div>
+		</div>
 
-				<div>
+
+<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12" id="test">
 				<p id="pourquoi2">Nous sommes 4 jeunes qui aimons regarder des films et donner notre avis autour d'un bon pot de pop corn ! 
 				Mais attention... Pop corn sucré !!</p>
 				</div>
+			</div>
+</div>
+	
 
-				</div>
 			</section>
 
 
@@ -255,16 +346,16 @@
 
 			<!--EXEMPLE DE CRITIQUE -->
 
-
-			<section id="exempledecritique">
-
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xs-12">
-							<h3 class="section">~ Exemple de "critique" ~</h3>
-						</div>
-					</div>
+<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 id="section1">~ Exemple de critique ? ~</h3>
 				</div>
+			</div>
+		</div>
+		
+
 
 				<div>
 
@@ -280,7 +371,7 @@
 				</div>
 
 
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
 
 						<div class="col-sm-4">
@@ -321,8 +412,9 @@
 
 						<div class="col-sm-4">
 							<div class="espace">
-								<div id="ba" class="espace1" class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/vTTlOav7ZyI" frameborder="0" allowfullscreen></iframe></div>
-								<div id="bo" class="espace2" class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/7YAVn466YBc" frameborder="0" allowfullscreen></iframe></div>
+								<div id="ba" class="espace1" class="embed-responsive embed-responsive-4by3">	<iframe src="https://www.youtube.com/embed/vTTlOav7ZyI" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div id="bo" class="espace2" class="embed-responsive embed-responsive-4by3"> <iframe src="https://www.youtube.com/embed/7YAVn466YBc" frameborder="0" allowfullscreen></iframe></div>
 							</div>
 						</div>
 					</div>
@@ -330,8 +422,8 @@
 
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-xs-12">	
-							<img id="separateur" src="images/barre.png"/>
+						<div class="col-sm-5 col-sm-offset-3">
+							<img id="separateur" class="img-responsive" src="images/barre.png"/>
 						</div>
 					</div>
 				</div>
@@ -342,8 +434,6 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<div>
-	<!--<div class="column3">
-			<div class="column2">-->
 										
 								<div class="contour">
 									<div><h3 class="datafilm">Synopsys</h3> </div>
@@ -382,35 +472,34 @@
 						</div>
 					</div>	
 				</div>
-				
+			</section>
 
 			<!--SUIVEZ-NOUS -->
 
 			<footer>
-			<section4 id="suivez-nous!">
+			<section>
 
-				<h3 class="section">~ Suivez-nous ~</h3>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 id="section1">~ Suivez-nous ~</h3>
+				</div>
+			</div>
+		</div>
 
 <div class="container">
 
 	<div class="row">
-		<div class="col-sm-3">
-			<a target="_blank" href="http://www.facebook.com"><img class="img-responsive" src="images/facebook.png"/></a>
+		<div class="col-sm-2 col-sm-offset-4">
+		
+			<a target="_blank" href="https://www.facebook.com/poppopcorn004/"><img class="img-responsive" src="images/facebook.png"/></a>
 		</div>
 
-		<div class="col-sm-3">
-			<a target="_blank" href="http://www.twitter.com"><img class="img-responsive" src="images/twitter.png"/></a>
-		</div>
-
-	<div class="row">
-		<div class="col-sm-3">
-			<a target="_blank" href="http://www.instagram.com"><img class="img-responsive" src="images/instagram.png"/></a>
-		</div>
-
-	<div class="row">
-		<div class="col-sm-3">
+		<div class="col-sm-6">
+		
 			<a data-toggle="modal" data-target="#myModal"><img id="mail" class="img-responsive" src="images/mail.png"/></a>
 		</div>
+		
 	</div>
 </div>
 
@@ -420,15 +509,15 @@
 					  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 					      <div class="modal-header">
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					        <h4 class="modal-title" id="myModalLabel">Merci !</h4>
+					        <h4 class="modal-title" id="myModalLabel">Envoyez nous un message!</h4>
 					      </div>
 					      <div class="modal-body">
 					        <form class="form-horizontal" id="mailbox" action="#">
+					        	<button type="submit" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					    <div class="form-group">
 					        <label for="name" class="col-sm-2 control-label">Nom et prénom</label>
 					        <div class="col-sm-10">
-					            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+					            <input type="text" class="form-control" id="name" name="nom" placeholder="First & Last Name" >
 					        </div>
 					    </div>
 					    <div class="form-group">
@@ -455,12 +544,12 @@
 					        </div>
 					    </div>
 					</form>
-							<div id="errormessage" class="hidden">
+							<div id="errormessage" class="hiddenmessage">
 								<p> Oups, recommencez ! </p>
 							</div>
-							<div id="greatsucess" class="hidden">
+							<div id="greatsuccess" class="hiddenmessage">
 								<p>Bravo, merci!</p>
-					</div>
+							</div>
 					      </div>
 					    </div>
 					  </div>
@@ -470,8 +559,8 @@
 			<!--MENTIONS LEGALES -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-0.5 col-sm-offset-11.5">
-			<a hover href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228"><h5 id="legal">Mentions légales</h5></a>
+		<div class="col-sm-1 col-sm-offset-11">
+			<a hover href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228"><p id="legal">Mentions légales</p></a>
 		</div>
 	</div>
 </div>

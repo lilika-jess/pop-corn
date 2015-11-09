@@ -10,14 +10,16 @@ $(document).ready(function(){
       data: $("#mailbox").serialize(),
       error: function() {
         $('#mailbox').hide();
-        $('#formErrorMessage').show();
+        $('#errormessage').show();
       }
     }).done(function() {
       //callback which can be used to show a thank you message
       //and reset the form
       $('#mailbox').hide();
-      $('#formSuccessMessage').show();
+      $('#greatsuccess').show();
     });
     return false; //to stop the form from submitting
   });
 });
+
+
